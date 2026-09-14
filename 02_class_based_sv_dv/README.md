@@ -4,6 +4,15 @@
 
 Built a class-based Design Verification environment for an 8-bit register with an asynchronous active-low reset.
 
+## DUT
+
+The DUT is an 8-bit register with:
+
+- Positive-edge triggered clock
+- Asynchronous active-low reset
+- 8-bit data input
+- 8-bit registered output
+
 ## Verification Architecture
 
 The testbench is organized using reusable SystemVerilog classes:
@@ -15,20 +24,6 @@ The testbench is organized using reusable SystemVerilog classes:
 - Scoreboard
 - Reference Model
 - Environment
-
-## Verification Features
-
-- Transaction-based stimulus
-- Constrained-randomization
-- Mailbox-based communication
-- Virtual interface
-- Clocking blocks
-- Generator-driver synchronization
-- Monitor-scoreboard communication
-- Reference model checking
-- Directed and randomized transactions
-- Reset verification
-- Functional checking
 
 ## Testbench Architecture
 
