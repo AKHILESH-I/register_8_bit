@@ -1,0 +1,18 @@
+Project 2 — Class-Based SystemVerilog DV
+Simulation Results
+==========================================
+
+Simulator: QuestaSim
+
+Expected transactions = 20
+Processed transactions = 20
+Pass count = 20
+Fail count = 0
+Scb result = Pass
+
+Simulation completed successfully.
+
+** Note: $finish : register_8_bit_tb.sv(37)
+Time: 205 ns
+Iteration: 5
+Instance: /register_8_bit_tb
