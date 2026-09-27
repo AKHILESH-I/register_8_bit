@@ -1,0 +1,54 @@
+COVERGROUP COVERAGE:
+-----------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal    Status               
+                                                                                              
+-----------------------------------------------------------------------------------------------
+ TYPE /register_pkg/register_coverage/register_cg     100.00%        100    Covered              
+    covered/total bins:                                    27         27                      
+    missing/total bins:                                     0         27                      
+    % Hit:                                            100.00%        100                      
+    Coverpoint register_cg::cp_d                      100.00%        100    Covered              
+        covered/total bins:                                 7          7                      
+        missing/total bins:                                 0          7                      
+        % Hit:                                        100.00%        100                      
+        bin all_zero                                        3          1    Covered              
+        bin all_one                                         2          1    Covered              
+        bin pattern_AA                                      2          1    Covered              
+        bin pattern_55                                      2          1    Covered              
+        bin low_values                                      3          1    Covered              
+        bin mid_values                                     10          1    Covered              
+        bin high_values                                     2          1    Covered              
+    Coverpoint register_cg::cp_rst_n                  100.00%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                        100.00%        100                      
+        bin reset_active                                    8          1    Covered              
+        bin reset_inactive                                 12          1    Covered              
+    Coverpoint register_cg::cp_q                      100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+        bin all_zero                                        9          1    Covered              
+        bin all_one                                         1          1    Covered              
+        bin pattern_AA                                      1          1    Covered              
+        bin pattern_55                                      1          1    Covered              
+    Cross register_cg::#cross__0#                     100.00%        100    Covered              
+        covered/total bins:                                14         14                      
+        missing/total bins:                                 0         14                      
+        % Hit:                                        100.00%        100                      
+        bin <all_zero,reset_active>                         2          1    Covered              
+        bin <all_one,reset_active>                          1          1    Covered              
+        bin <pattern_AA,reset_active>                       1          1    Covered              
+        bin <pattern_55,reset_active>                       1          1    Covered              
+        bin <low_values,reset_active>                       1          1    Covered              
+        bin <mid_values,reset_active>                       3          1    Covered              
+        bin <high_values,reset_active>                      1          1    Covered              
+        bin <all_zero,reset_inactive>                       1          1    Covered              
+        bin <all_one,reset_inactive>                        1          1    Covered              
+        bin <pattern_AA,reset_inactive>                     1          1    Covered              
+        bin <pattern_55,reset_inactive>                     1          1    Covered              
+        bin <low_values,reset_inactive>                     2          1    Covered              
+        bin <mid_values,reset_inactive>                     7          1    Covered              
+        bin <high_values,reset_inactive>                    1          1    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
