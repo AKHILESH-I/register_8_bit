@@ -1,6 +1,10 @@
+cd ../tb
+
 vsim -voptargs=+acc work.register_8_bit_tb
 
 run -all
+
+cd ../sim
 
 file mkdir ../results
 
